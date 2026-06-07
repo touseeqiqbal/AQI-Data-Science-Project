@@ -114,7 +114,7 @@ This project successfully demonstrated the end-to-end data science workflow on t
 ## 11. Final Submission Format
 **Student Name:** Touseeq iqbal  
 **Registration Number:** 2280237  
-**GitHub Repository Link:** [Your GitHub Link Here]  
+**GitHub Repository Link:**https://github.com/touseeqiqbal/AQI-Data-Science-Project/tree/main/AQI-Data-Science-Project
 **Dataset Used:** Global Urban Air Quality Index Dataset (2015-2025)  
 **Best KNN Accuracy:** ~92%  
 **Naive Bayes Accuracy:** ~88%  

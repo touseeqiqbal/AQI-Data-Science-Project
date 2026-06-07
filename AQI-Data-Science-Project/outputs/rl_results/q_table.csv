@@ -1,0 +1,4 @@
+,No Restriction,Partial Restriction,High-Pollution Alert
+Low AQI (0-100),100.0,88.0,85.0
+Medium AQI (101-200),84.0,100.0,92.0
+High AQI (>200),80.0,87.0,100.0

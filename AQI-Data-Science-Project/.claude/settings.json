@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:/Users/Touseeq/.claude/projects/c--Users-Touseeq-Documents-assiment-3-ids-2280237/memory/\" 2>/dev/null && echo \"---\" && cat \"C:/Users/Touseeq/.claude/projects/c--Users-Touseeq-Documents-assiment-3-ids-2280237/memory/MEMORY.md\" 2>/dev/null || echo \"no MEMORY.md yet\")",
+      "Read(//c/Users/Touseeq/.claude/projects/c--Users-Touseeq-Documents-assiment-3-ids-2280237/**)",
+      "PowerShell($src = \"$env:TEMP\\\\AQI_RL_Assignment_4_Report.docx\"; python -c \"from docx import Document; d=Document\\(r'$src'\\); print\\('paragraphs:', len\\(d.paragraphs\\)\\); print\\('tables:', len\\(d.tables\\)\\); print\\('inline images:', len\\(d.inline_shapes\\)\\)\"; \"--- trying to place into repo report/ ---\"; $dst = \"c:\\\\Users\\\\Touseeq\\\\Documents\\\\assiment 3 ids 2280237\\\\AQI-Data-Science-Project\\\\report\\\\AQI_RL_Assignment_4_Report.docx\"; try { Copy-Item $src $dst -ErrorAction Stop; \"COPIED into repo: $\\(Test-Path $dst\\)\" } catch { \"REPO COPY BLOCKED: $\\($_.Exception.Message\\)\" })"
+    ]
+  }
+}
